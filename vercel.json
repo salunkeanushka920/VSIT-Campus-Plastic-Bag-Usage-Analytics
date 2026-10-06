@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "buildCommand": "cd frontend && rm -f package-lock.json && npm install && npm run build",
+  "buildCommand": "cd frontend && rm -rf node_modules package-lock.json && npm install && npm install @rolldown/binding-linux-x64-gnu && npm run build",
   "outputDirectory": "frontend/dist",
   "rewrites": [
     {
